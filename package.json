@@ -1,0 +1,16 @@
+{
+  "name": "ancert-clean-code-1",
+  "version": "1.0.0",
+  "description": "Curso de código limpio de Ancert",
+  "scripts": {},
+  "keywords": [],
+  "author": {
+    "name": "Alberto Basalo",
+    "email": "albertobasalo@aicode.academy"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.15.3"
+  }
+}

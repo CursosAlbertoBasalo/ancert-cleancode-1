@@ -10,22 +10,12 @@
     "source.organizeImports.biome": "explicit"
   },
   "material-icon-theme.folders.associations": {
-    ".ai": "robot",
-    "architect": "godot",
-    "builder": "godot",
-    "craftsman": "godot",
     "file": "meta",
     "http": "api",
-    "prompts": "robot",
     "domain": "cobol",
     "system": "stack"
   },
   "material-icon-theme.files.associations": {
-    "*.blueprint.md": "apiblueprint",
-    "*.instructions.md": "twine",
-    "*.tracker.md": "verified",
-    "*.plan.md": "architecture",
-    "*.prompt.md": "pascal",
     "*.template.md": "textlint",
     "*.adapter.ts": "adonis",
     "*.command.ts": "console",
@@ -45,18 +35,9 @@
     "*.utils.ts": "tilt",
     "*.validator.ts": "velite"
   },
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": true,
-    "scminput": false,
-    "editor": true,
-    "inlineSuggest": true,
-    "inlineSuggest.enable": true,
-    "inlineSuggest.showSuggestionsAlways": true
-  },
   "cSpell.words": [
     "ancert",
     "Ancert"
-  ]
+  ],
+  "window.zoomLevel": 1
 }

@@ -2,7 +2,12 @@
 
 Curso de Código limpio para Ancert. Del 5/5/2025 al 8/5/2025.
 
-Repository: [CursosAlbertoBasalo / Ancert CleanCode 1](https://github.com/CursosAlbertoBasalo/ancert-cleancode-1)
+Repositorio: [CursosAlbertoBasalo / Ancert CleanCode 1](https://github.com/CursosAlbertoBasalo/ancert-cleancode-1)
+
+> [!NOTE]
+> Este proyecto dispone de ejemplos en TypeScript
+> 
+> El contenido es apto para cualquier lenguaje de programación
 
 ---
 

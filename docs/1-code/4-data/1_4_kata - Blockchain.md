@@ -2,7 +2,7 @@
 
 ## Specifications
 
-You need to implement a simple blockchain that can store data in a list of blocs.
+You need to implement a simplified (no proof-of-work needed and fake hash) blockchain that can store data in a list of blocs.
 
 A block has the following properties:
 
@@ -10,21 +10,19 @@ A block has the following properties:
 - Timestamp: The timestamp when the block was created.
 - Data: The data that the block stores.
 - Previous Hash: The hash of the previous block in the blockchain.
-- Hash: The hash of the block. (can be calculated adding the index, timestamp, data length, and previous hash)
+- Hash: The hash of the block. (fake : index + data length + and previous hash)
 
-There is a special block called the genesis block that has blank data and a hash of `0`. This block is the first block in the blockchain and it is added when the blockchain is created.
+There is a special block called the genesis block that has blank index `0`, empty data and a previous hash of `0`. This block is the first block in the blockchain and it is added when the blockchain is created.
 
 The blockchain has the following properties:
 
 - Chain: A list of blocks.
 - Timestamp: The timestamp when the blockchain was created or changed.
 
-Any block in the blockchain must have a method to validate itself.
-
 The blockchain has the following methods:
 
-- AddBlock: Adds a block to the chain.
-- IsValid: Checks if the blockchain is valid.
+- AddBlock: Adds a block of data to the chain.
+- IsValid: Checks if the whole blockchain is valid.
 
 ### Acceptance Criteria:
 

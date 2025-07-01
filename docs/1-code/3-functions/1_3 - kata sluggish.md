@@ -2,7 +2,7 @@
 
 ## Specifications
 
-You need to implement a function that returns a string  identifier for a given object. 
+You need to implement a function that returns a string identifier for a given object and use it as a file name to save the object in a json file. 
 
 By default, the function must use the object's `name` property to generate the identifier. The caller can choose to use another property. If the object does not have the chosen property, the function must return an error.
 
@@ -57,20 +57,20 @@ Then the function returns "my-article"
 
 2 - Write simple blocks and instructions.
 
-3 - Keep functions small.
+3 - Write simple functions.
 
   - Do one thing
 
-  - Keep functions small (4-9 lines)
+  - Keep them small (9-15 lines)
 
   - Use only one level of abstraction
 
   - Use descriptive verbs and names
 
-  - Reduce arguments
+  - Reduce arguments (1-2)
 
   - Ask or tell, don't mix
 
-  - Encapsulate side effects
-
   - Avoid using null by using guard clauses or default values
+
+  - Encapsulate side effects
